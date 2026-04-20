@@ -1,0 +1,166 @@
+-------->>>>>Running find_dark_matter.py:
+
+Tokens        : 9,999,360
+Mamba features: 12,288
+Pythia features: 32,768
+
+--- Results ---
+Total Active Features Saved: 12,288
+Lowest Jaccard Similarity: 0.2343
+Highest Jaccard Similarity: 0.4116
+Saved full feature map to all_mapped_features.json
+
+-------->>>>>Running read_alien_features.py:
+
+Investigating the most alien Mamba features: [7378, 4454, 6888]
+Loading tokenizer and models...
+Moving model to device:  cuda
+Loading dataset snippet...
+Scanning the first 1024 chunks for feature triggers...
+
+==================================================
+👽 ALIEN FEATURE DECODING COMPLETE 👽
+==================================================
+
+Feature ID: 7378
+Max Activation Strength: 6.96
+Trigger Context:
+... live|archive-url=https://web.archive.org/web >>> / <<< 201701251639 ...
+--------------------------------------------------
+
+Feature ID: 4454
+Max Activation Strength: 6.39
+Trigger Context:
+... live|archive-url=https://web.archive.org/web >>> / <<< 201701251639 ...
+--------------------------------------------------
+
+Feature ID: 6888
+Max Activation Strength: 4.19
+Trigger Context:
+...  in Iowa
+List of high schools in Iowa
+
+References
+
+External >>>  LINKS <<< 
+ Denver Community School ...
+--------------------------------------------------
+
+-------->>>>>Running explore_semantic_features.py:
+
+============================================================
+GREY MATTER SEMANTIC DECODING COMPLETE
+============================================================
+
+Feature ID: 4454 | Similarity to Pythia: 0.324
+------------------------------------------------------------
+  #1 (Strength: 6.39)
+  ... live|archive-url=https://web.archive.org/web >>> / <<< 201701251639 ...
+
+  #2 (Strength: 4.58)
+  ...  Black Hawk County.
+
+The school, which serves all grade levels K >>> - <<< 12 on one campus ...
+
+  #3 (Strength: 4.45)
+  ...  the Andover Public Schools district accommodates 5,487 pupils from grades PK >>> - <<< 12, with an ...
+
+  #4 (Strength: 4.18)
+  ... ) – with Franklin Brown
+ "Als je weet wat je w >>> ILT <<< " (1996) ...
+
+
+Feature ID: 6888 | Similarity to Pythia: 0.3415
+------------------------------------------------------------
+  #1 (Strength: 4.19)
+  ...  in Iowa
+List of high schools in Iowa
+
+References
+
+External >>>  LINKS <<< 
+ Denver Community School ...
+
+  #2 (Strength: 4.18)
+  ...  (girls)
+
+Enrollment
+
+References
+
+External >>>  LINKS <<< 
+ Belle Plaine ...
+
+  #3 (Strength: 4.07)
+  ...  and double cabin) were added from 1985.
+
+References
+
+External >>>  LINKS <<<  
+ Official Website
+ ...
+
+  #4 (Strength: 4.04)
+  ...  Saint-Raymond de Portneuf.
+
+References
+
+External >>>  LINKS <<< 
+ 
+
+Hoc ...
+
+melenus_30@gpu-instance:~$ 
+
+
+-------->>>>>Running compare_twins.py:
+
+======================================================================
+🔬 FEATURE SPLITTING ANALYSIS COMPLETE 🔬
+======================================================================
+
+=== MAMBA FEATURE 4454 TOP ACTIVATIONS ===
+  #1 (Strength: 6.39)
+  ... live|archive-url=https://web.archive.org/web >>> / <<< 201701251639 ...
+
+  #2 (Strength: 4.58)
+  ...  Black Hawk County.
+
+The school, which serves all grade levels K >>> - <<< 12 on one campus ...
+
+  #3 (Strength: 4.45)
+  ...  the Andover Public Schools district accommodates 5,487 pupils from grades PK >>> - <<< 12, with an ...
+
+  #4 (Strength: 4.18)
+  ... ) – with Franklin Brown
+ "Als je weet wat je w >>> ILT <<< " (1996) ...
+
+  #5 (Strength: 4.18)
+  ...  that the same had happened with the previous film he produced, ¡Que v >>> IVAN <<<  los muertos ...
+
+
+=== PYTHIA TWIN FEATURE 4309 TOP ACTIVATIONS ===
+  #1 (Strength: 4.87)
+  ... | align=center| 2
+| align=center| 5:00 >>> 
+ <<< |Krasnod ...
+
+  #2 (Strength: 4.83)
+  ... | align=center| 3
+| align=center| 5:00 >>> 
+ <<< | Volgog ...
+
+  #3 (Strength: 4.79)
+  ... | align=center| 3
+| align=center| 5:00 >>> 
+ <<< | Krasnod ...
+
+  #4 (Strength: 4.75)
+  ... | align=center| 1
+| align=center| 0:24 >>> 
+ <<< | Yalta, ...
+
+  #5 (Strength: 4.75)
+  ... | align=center|3
+| align=center|5:00 >>> 
+ <<< | Moscow, Russia ...
